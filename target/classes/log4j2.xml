@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <!-- Console output -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%d{HH:mm:ss}] [%p] %c{1} - %m%n"/>
+        </Console>
+
+        <!-- Rolling File output -->
+        <RollingFile name="RollingFile" 
+                     fileName="logs/automation.log"
+                     filePattern="logs/automation-%d{yyyy-MM-dd}.log">
+            <PatternLayout>
+                <Pattern>[%d{yyyy-MM-dd HH:mm:ss}] [%p] %c{1} - %m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <!-- Create a new log file every day -->
+                <TimeBasedTriggeringPolicy interval="1"/>
+                <!-- Create a new log if file size exceeds 10 MB -->
+                <SizeBasedTriggeringPolicy size="10MB"/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <!-- Root logger -->
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="RollingFile"/>
+        </Root>
+    </Loggers>
+</Configuration>
