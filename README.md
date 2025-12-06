@@ -25,7 +25,6 @@ A robust & scalable test automation framework built using <b>Selenium WebDriver,
 - [▶️ Test Execution](#️-test-execution)
 - [✨ Key Features](#-key-features)
 - [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
 - [📬 Contact](#-contact)
 
 ---
