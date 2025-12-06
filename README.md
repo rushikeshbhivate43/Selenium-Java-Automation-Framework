@@ -73,7 +73,7 @@ AutomationExerciseFramework
 ├── testng.xml                               # Test Suite configuration
 ├── pom.xml                                  # Maven Dependencies
 └── README.md                                # Project Documentation
-
+```md
 ---
 
 ## ⚙️ Prerequisites
