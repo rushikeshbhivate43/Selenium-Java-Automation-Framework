@@ -15,16 +15,16 @@ A robust & scalable test automation framework built using <b>Selenium WebDriver,
 ---
 
 ## 📌 Table of Contents
-- [📘 Project Overview](#-project-overview)
-- [🧩 Tech Stack / Tools](#-tech-stack--tools)
-- [📂 Project Structure](#-project-structure)
-- [⚙️ Prerequisites](#-prerequisites)
-- [⚙️ Installation & Setup](#️-installation--setup)
-- [⚙️ Configuration Details](#️-configuration-details)
-- [▶️ Test Execution](#️-test-execution)
-- [✨ Key Features](#-key-features)
-- [🤝 Contributing](#-contributing)
-- [📬 Contact](#-contact)
+- [📘 Project Overview](#project-overview)
+- [🧩 Tech Stack / Tools](#tech-stack--tools)
+- [📂 Project Structure](#project-structure)
+- [⚙️ Prerequisites](#prerequisites)
+- [⚙️ Installation & Setup](#installation--setup)
+- [⚙️ Configuration Details](#configuration-details)
+- [▶️ Test Execution](#test-execution)
+- [✨ Key Features](#key-features)
+- [🤝 Contributing](#contributing)
+- [📬 Contact](#contact)
 
 ---
 
