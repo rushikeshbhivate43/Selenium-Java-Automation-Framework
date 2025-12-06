@@ -14,7 +14,7 @@ A robust & scalable test automation framework built using <b>Selenium WebDriver,
 
 ---
 
-## 📌 Table of Contents
+## 📌Table of Contents
 - [📘 Project Overview](#project-overview)
 - [🧩 Tech Stack / Tools](#tech-stack--tools)
 - [📂 Project Structure](#project-structure)
@@ -75,7 +75,7 @@ AutomationExerciseFramework
 ```md
 ---
 
-## ⚙️ Prerequisites
+## Prerequisites
 Before running the framework, ensure the following are installed:
 Java 17
 Maven 3.8+
@@ -85,7 +85,7 @@ Git (optional, for cloning the repo)
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 1️⃣ Clone the repository:  
 git clone https://github.com/rushikeshbhivate43/Selenium-Java-Automation-Framework.git
