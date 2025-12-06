@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.AutoExercise.TestCases.TC6_VerifyProductQauntityInCart">
+      <class name="autoExercise.TestCases.TC8_VerifySubscription">
         <methods>
-          <include name="verifyProductQuanitytInCart"/>
+          <include name="verifySubscription"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.AutoExercise.TestCases.TC6_VerifyProductQauntityInCart -->
+      </class> <!-- autoExercise.TestCases.TC8_VerifySubscription -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
