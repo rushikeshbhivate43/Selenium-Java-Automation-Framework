@@ -10,7 +10,6 @@ A robust & scalable test automation framework built using <b>Selenium WebDriver,
   <img src="https://img.shields.io/badge/TestNG-Testing-brightgreen" />
   <img src="https://img.shields.io/badge/ExtentReports-Reporting-red" />
   <img src="https://img.shields.io/badge/Browser-Chrome-success" />
-  <img src="https://img.shields.io/badge/License-MIT-yellow" />
 </p>
 
 ---
