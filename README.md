@@ -85,7 +85,7 @@ Git (optional, for cloning the repo)
 
 ---
 
-## Installation & Setup
+##  Installation & Setup
 
 1️⃣ Clone the repository:  
 git clone https://github.com/rushikeshbhivate43/Selenium-Java-Automation-Framework.git
