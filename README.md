@@ -73,7 +73,6 @@ AutomationExerciseFramework
 ├── pom.xml                                  # Maven Dependencies
 └── README.md                                # Project Documentation
 ---
-
 ## Prerequisites
 Before running the framework, ensure the following are installed:
 Java 17
