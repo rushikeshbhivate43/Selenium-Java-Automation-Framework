@@ -9,6 +9,19 @@ import autoExercise.PageObjets.ProductsPage;
 import autoExercise.PageObjets.ViewCartPage;
 import autoExercise.Utilities.BaseClass;
 
+/**
+ * Test Case: Verify product quantity in cart.
+ * Steps:
+ * 1. Login by user
+ * 2. Navigate to the Product page.
+ * 3. Click on View Product.
+ * 4. Increase the product quantity
+ * 5. click on view cart
+ * 6. Get the product quantity on cart page.
+ * 7. Compare the quanity.
+ * 8. Removed product from cart to maintain clean state for next test run.
+ */
+
 public class TC6_VerifyProductQauntityInCart extends BaseClass  {
 
 	@Test

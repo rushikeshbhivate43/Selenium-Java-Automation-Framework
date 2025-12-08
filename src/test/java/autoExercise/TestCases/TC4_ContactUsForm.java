@@ -9,6 +9,17 @@ import autoExercise.PageObjets.ContactUsPage;
 import autoExercise.PageObjets.HomePage;
 import autoExercise.Utilities.BaseClass;
 
+/**
+ * Test Case: Contact us form.
+ * Steps:
+ * 1. Login by user
+ * 2. Navigate to the Contact US page.
+ * 3. Enter the required fields.
+ * 4. Click on Submit button.
+ * 5. Accept the alert.
+ * 4. Verify the success msg.
+ */
+
 public class TC4_ContactUsForm extends BaseClass {
 
 	@Test

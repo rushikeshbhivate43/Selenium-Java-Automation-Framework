@@ -9,6 +9,19 @@ import autoExercise.PageObjets.ProductsPage;
 import autoExercise.PageObjets.ViewCartPage;
 import autoExercise.Utilities.BaseClass;
 
+/**
+ * Test Case: Add product in cart.
+ * Steps:
+ * 1. Login by user
+ * 2. Navigate to the Product page.
+ * 3. Hover to the product and get product price.
+ * 4. Add product
+ * 5. click on view cart
+ * 6. Get the product price on cart page.
+ * 7. Compare the price.
+ * 8. Removed product from cart to maintain clean state for next test run.
+ */
+
 public class TC5_AddProductsInCart extends BaseClass {
 
 	@Test
@@ -28,7 +41,7 @@ public class TC5_AddProductsInCart extends BaseClass {
 	    logger.info("Captured product price from Products page: {}", ProductPrice);
 
 	    productsPage.addFirstProduct();
-	    logger.info("Added first product to cart.");
+	    logger.info("Added product to cart.");
 
 	    productsPage.viewCart();
 	    ViewCartPage viewCart = new ViewCartPage(driver);
@@ -43,9 +56,11 @@ public class TC5_AddProductsInCart extends BaseClass {
 	    } else {
 	        viewCart.removeProduct();
 	        logger.info("Product  quantity has not been added to the cart or quantity not matched.");
+			logger.info("Removed product from cart to maintain clean state for next test run.");
 	        Assert.fail("Failed! Product has not been added to the cart...");
 	    }
         viewCart.removeProduct();
+		logger.info("Removed product from cart to maintain clean state for next test run.");
 		logger.info("Ending test: addProductsInCart");
 	}
 }
