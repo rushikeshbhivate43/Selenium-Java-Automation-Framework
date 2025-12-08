@@ -6,13 +6,14 @@
 	</listeners>
   <test thread-count="5" name="AutomationTests">
     <classes>
-		<class name="com.AutoExercise.TestCases.TC1_RegisterUser"/>
-		<class name="com.AutoExercise.TestCases.TC2_LoginUser"/>
-		<class name="com.AutoExercise.TestCases.TC3_RegisterUserWithExistingEmail"/>
-        <class name="com.AutoExercise.TestCases.TC4_ContactUsForm"/>
-        <class name="com.AutoExercise.TestCases.TC5_AddProductsInCart"/>
-        <class name="com.AutoExercise.TestCases.TC6_VerifyProductQauntityInCart"/>
-        <class name="com.AutoExercise.TestCases.TC7_AddReviewOnProduct"/>
+		<class name="AutoExercise.TestCases.TC1_RegisterUser"/>
+		<class name="AutoExercise.TestCases.TC2_LoginUser"/>
+		<class name="AutoExercise.TestCases.TC3_RegisterUserWithExistingEmail"/>
+        <class name="AutoExercise.TestCases.TC4_ContactUsForm"/>
+        <class name="AutoExercise.TestCases.TC5_AddProductsInCart"/>
+        <class name="AutoExercise.TestCases.TC6_VerifyProductQauntityInCart"/>
+        <class name="AutoExercise.TestCases.TC7_AddReviewOnProduct"/>
+		<class name="AutoExercise.Testcases.TC8_VerifySubscription"/>
     </classes>
   </test> <!-- AutomationTests -->
 </suite> <!-- Suite -->
