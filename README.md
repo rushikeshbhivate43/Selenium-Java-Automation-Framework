@@ -100,7 +100,7 @@ mvn clean install
 4. Configure config.properties in:
    src/main/resources/config.properties
    
-  Exmaple Values:
+  Example Values:
 - baseUrl=https://automationexercise.com/
 - browser=chrome
 - implicitWait=10
