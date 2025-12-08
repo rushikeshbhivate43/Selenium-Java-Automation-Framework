@@ -1,4 +1,4 @@
-<h1 align="center">🚀 Selenium Java Automation Framework</h1>
+<h1 align="center"> Selenium Java Automation Framework</h1>
 
 <p align="center">
 A robust & scalable test automation framework built using <b>Selenium WebDriver, Java, TestNG & Maven</b>
@@ -14,28 +14,28 @@ A robust & scalable test automation framework built using <b>Selenium WebDriver,
 
 ---
 
-## 📌Table of Contents
-- [📘 Project Overview](#project-overview)
-- [🧩 Tech Stack / Tools](#tech-stack--tools)
-- [📂 Project Structure](#project-structure)
-- [⚙️ Prerequisites](#prerequisites)
-- [⚙️ Installation & Setup](#installation--setup)
-- [⚙️ Configuration Details](#configuration-details)
-- [▶️ Test Execution](#test-execution)
-- [✨ Key Features](#key-features)
-- [🤝 Contributing](#contributing)
-- [📬 Contact](#contact)
+## Table of Contents
+- [ Project Overview](#project-overview)
+- [ Tech Stack / Tools](#tech-stack--tools)
+- [ Project Structure](#project-structure)
+- [ Prerequisites](#prerequisites)
+- [ Installation & Setup](#installation--setup)
+- [ Configuration Details](#configuration-details)
+- [ Test Execution](#test-execution)
+- [ Key Features](#key-features)
+- [ Contributing](#contributing)
+- [ Contact](#contact)
 
 ---
 
-## 📘 Project Overview
+## Project Overview
 This is a **Selenium Java Test Automation Framework** designed to automate UI testing effectively.  
 It follows the **Page Object Model (POM)** architecture enabling better code reusability and maintenance.  
 The framework integrates advanced reporting (Extent Reports), detailed logs, and configurable test execution.
 
 ---
 
-## 🧩 Tech Stack / Tools
+## Tech Stack / Tools
 | Category | Technology |
 |---------|------------|
 | Language | Java 17 |
@@ -49,7 +49,7 @@ The framework integrates advanced reporting (Extent Reports), detailed logs, and
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```text
 AutomationExerciseFramework
 │
@@ -86,24 +86,23 @@ Git (optional, for cloning the repo)
 ---
 
 ##  Installation & Setup
-
-1️⃣ Clone the repository:  
+1. Clone the repository:  
 git clone https://github.com/rushikeshbhivate43/Selenium-Java-Automation-Framework.git
 
-2️⃣ Navigate to the project directory:
+2️. Navigate to the project directory:
 cd Selenium-Java-Automation-Framework
 
-3️⃣ Install dependencies using Maven:
+3. Install dependencies using Maven:
 mvn clean install
 
-4️⃣ Configure config.properties in src/main/resources:
+4️. Configure config.properties in src/main/resources:
 baseUrl=https://automationexercise.com/
 browser=chrome
 implicitWait=10
 
 ---
 
-## ⚙️ Configuration Details
+## Configuration Details
 | Property          | Description                  | Example                         |
 | ----------------- | ---------------------------- | ------------------------------- |
 |   baseUrl         | Base URL of the application  | https://automationexercise.com/ |
@@ -112,7 +111,7 @@ implicitWait=10
 
 ---
 
-## ▶️ Test Execution
+## Test Execution
 Run all tests via Maven:
 mvn test
 
@@ -124,7 +123,7 @@ Right-click on testng.xml > Run as > TestNG Suite
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ✔ Selenium automation with Java
 ✔ TestNG for structured testing & assertions
@@ -137,7 +136,7 @@ Right-click on testng.xml > Run as > TestNG Suite
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Follow these steps:
 Fork the repository
@@ -148,6 +147,6 @@ Open a Pull Request
 
 ---
 
-## 📬 Contact
+## Contact
 GitHub: rushikeshbhivate43
 Email: rushikeshbhivate111@gmail.com
