@@ -92,13 +92,13 @@ Before running the framework, ensure the following are installed:
    git clone https://github.com/rushikeshbhivate43/Selenium-Java-Automation-Framework.git
    
 2. Navigate to the project directory:
-cd Selenium-Java-Automation-Framework
+- cd Selenium-Java-Automation-Framework
 
-3. Install dependencies using Maven
-mvn clean install
+3. Install dependencies using Maven:
+- mvn clean install
 
 4. Configure config.properties in:
-   src/main/resources/config.properties
+- src/main/resources/config.properties
    
   Example Values:
 - baseUrl=https://automationexercise.com/
