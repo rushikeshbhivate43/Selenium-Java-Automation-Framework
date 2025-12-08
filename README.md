@@ -5,10 +5,10 @@ A robust & scalable test automation framework built using <b>Selenium WebDriver,
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Java-17-blue" />
-  <img src="https://img.shields.io/badge/Maven-Automation-orange" />
-  <img src="https://img.shields.io/badge/TestNG-Testing-brightgreen" />
-  <img src="https://img.shields.io/badge/ExtentReports-Reporting-red" />
+  <img src="https://img.shields.io/badge/Programing Language-Java-blue" />
+  <img src="https://img.shields.io/badge/Build Tool-Maven-orange" />
+  <img src="https://img.shields.io/badge/Test Framework-TestNG-brightgreen" />
+  <img src="https://img.shields.io/badge/Testing Report-ExtentReport-red" />
   <img src="https://img.shields.io/badge/Browser-Chrome-success" />
 </p>
 
