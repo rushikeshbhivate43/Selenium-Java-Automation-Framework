@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="autoExercise.TestCases.TC8_VerifySubscription">
+      <class name="autoExercise.TestCases.TC3_RegisterUserWithExistingEmail">
         <methods>
-          <include name="verifySubscription"/>
+          <include name="tearDown"/>
+          <include name="verifyRegisterUserIsAlreadyExist"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- autoExercise.TestCases.TC8_VerifySubscription -->
+      </class> <!-- autoExercise.TestCases.TC3_RegisterUserWithExistingEmail -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

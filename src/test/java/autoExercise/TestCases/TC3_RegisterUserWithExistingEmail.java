@@ -25,9 +25,9 @@ public class TC3_RegisterUserWithExistingEmail extends BaseClass {
 		homePage.signUp();
 		
 		SignUpPage signUP = new SignUpPage(driver);
-		signUP.name("Chaitan Ahuja");
+		signUP.name("Rushikesh Bhivate");
 
-		signUP.emailAddress("ChaitanAhuja@gmail.com");
+		signUP.emailAddress("rushikeshbhivate43@gmail.com");
 		signUP.signUpButton();
 		
 		try {

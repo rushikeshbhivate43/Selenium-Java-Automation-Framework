@@ -26,8 +26,8 @@ public class TC2_LoginUser extends BaseClass{
 		logger.info("Navigated to Sign Up / Login page");
 
 		LoginPage login = new LoginPage(driver);
-		login.emailAddress("AatreyaSharma@gmail.com");
-		login.Password("Aatreya@1234");
+		login.emailAddress("rushikeshbhivate43@gmail.com");
+		login.Password("Rushikesh@1234");
 		login.login();
 		logger.info("Entered credentials and clicked login");
 

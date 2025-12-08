@@ -32,8 +32,8 @@ public class TC4_ContactUsForm extends BaseClass {
 		homePage.contactUs();
 		
 		ContactUsPage contactUs = new ContactUsPage(driver);
-		contactUs.name("Aatreya Sharma");
-		contactUs.email("AatreyaSharma@gmail.com");
+		contactUs.name("Rushikesh Bhivate");
+		contactUs.email("rushikeshbhivate43@gmail.com");
 		contactUs.subject("Test Subject 123");
 		contactUs.message("This is a dummy message for automation script testing purposes. Please ignore.");
 		contactUs.submit();
