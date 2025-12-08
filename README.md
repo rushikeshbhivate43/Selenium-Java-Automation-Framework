@@ -38,7 +38,7 @@ The framework integrates advanced reporting (Extent Reports), detailed logs, and
 ## Tech Stack / Tools
 | Category | Technology |
 |---------|------------|
-| Language | Java 17 |
+| Language | Java |
 | Automation | Selenium WebDriver |
 | Test Framework | TestNG |
 | Build Tool | Maven |
