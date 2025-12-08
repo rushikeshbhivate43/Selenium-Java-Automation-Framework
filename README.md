@@ -73,30 +73,37 @@ AutomationExerciseFramework
 ├── pom.xml                                  # Maven Dependencies
 └── README.md                                # Project Documentation
 ```
+---
 ## Prerequisites
 Before running the framework, ensure the following are installed:
-Java 17
-Maven 3.8+
-Chrome browser (latest version recommended)
-ChromeDriver matching the Chrome version
-Git (optional, for cloning the repo) 
+
+- Java 17
+- Maven 3.8+
+- Chrome browser (latest version recommended)
+- ChromeDriver matching the Chrome version
+- Git (optional, for cloning the repo)
 
 ---
 
-##  Installation & Setup
-1. Clone the repository:  
-git clone https://github.com/rushikeshbhivate43/Selenium-Java-Automation-Framework.git
+## Installation & Setup
 
-2️. Navigate to the project directory:
+1. Clone the repository
+   ```bash
+   git clone https://github.com/rushikeshbhivate43/Selenium-Java-Automation-Framework.git
+   
+2. Navigate to the project directory:
 cd Selenium-Java-Automation-Framework
 
-3. Install dependencies using Maven:
+3. Install dependencies using Maven
 mvn clean install
 
-4️. Configure config.properties in src/main/resources:
-baseUrl=https://automationexercise.com/
-browser=chrome
-implicitWait=10
+4. Configure config.properties in:
+   src/main/resources/config.properties
+   
+  Exmaple Values:
+- baseUrl=https://automationexercise.com/
+- browser=chrome
+- implicitWait=10
 
 ---
 
@@ -111,40 +118,39 @@ implicitWait=10
 
 ## Test Execution
 Run all tests via Maven:
-mvn test
+- mvn test
 
 Run specific TestNG suite:
-mvn test -DsuiteXmlFile=testng.xml
+- mvn test -DsuiteXmlFile=testng.xml
 
 Run tests from IDE:
-Right-click on testng.xml > Run as > TestNG Suite
+- Right-click on testng.xml > Run as > TestNG Suite
 
 ---
 
 ## Key Features
 
-✔ Selenium automation with Java
-✔ TestNG for structured testing & assertions
-✔ Page Object Model for clean and reusable code
-✔ Captures screenshots on test failure (ScreenShots/)
-✔ Detailed logging with Log4j2 (logs/ folder)
-✔ Extent Reports for test execution results (Reports/ folder)
-✔ Centralized WebDriver & Config management in Utilities
-✔ Scalable folder structure for future enhancement
+- Selenium automation with Java
+- TestNG for structured testing & assertions
+- Page Object Model for clean and reusable code
+- Captures screenshots on test failure (ScreenShots/)
+- Detailed logging with Log4j2 (logs/ folder)
+- Extent Reports for test execution results (Reports/ folder)
+- Centralized WebDriver & Config management in Utilities
+- Scalable folder structure for future enhancement
 
 ---
 
 ## Contributing
 
 Contributions are welcome! Follow these steps:
-Fork the repository
-Create a new branch (git checkout -b feature/your-feature)
-Make your changes & commit (git commit -m "Add new feature")
-Push to branch (git push origin feature/your-feature)
-Open a Pull Request
+- Create a new branch (git checkout -b feature/your-feature)
+- Make your changes & commit (git commit -m "Add new feature")
+- Push to branch (git push origin feature/your-feature)
+- Open a Pull Request
 
 ---
 
 ## Contact
-GitHub: rushikeshbhivate43
-Email: rushikeshbhivate111@gmail.com
+- GitHub: rushikeshbhivate43
+- Email: rushikeshbhivate111@gmail.com
