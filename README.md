@@ -15,19 +15,22 @@ A robust & scalable test automation framework built using <b>Selenium WebDriver,
 ---
 
 ## Table of Contents
-- [ Project Overview](#project-overview)
-- [ Tech Stack / Tools](#tech-stack--tools)
-- [ Project Structure](#project-structure)
-- [ Prerequisites](#prerequisites)
-- [ Installation & Setup](#installation--setup)
-- [ Configuration Details](#configuration-details)
-- [ Test Execution](#test-execution)
-- [ Key Features](#key-features)
-- [ Contributing](#contributing)
-- [ Contact](#contact)
+- [Project Overview](#project-overview)
+- [Tech Stack / Tools](#tech-stack--tools)
+- [Project Structure](#project-structure)
+- [Prerequisites](#prerequisites)
+- [Installation & Setup](#installation--setup)
+- [Configuration Details](#configuration-details)
+- [Test Execution](#test-execution)
+- [Key Features](#key-features)
+- [Test Execution Report](#test-execution-report)
+  - [Test Cases Execution Status](#test-cases-execution-status)
+  - [Dashboard Overview](#dashboard-overview)
+- [Contributing](#contributing)
+- [Contact](#contact)
 
 ---
-
+  
 ## Project Overview
 This is a **Selenium Java Test Automation Framework** designed to automate UI testing effectively.  
 It follows the **Page Object Model (POM)** architecture enabling better code reusability and maintenance.  
@@ -138,6 +141,24 @@ Run tests from IDE:
 - Extent Reports for test execution results (Reports/ folder)
 - Centralized WebDriver & Config management in Utilities
 - Scalable folder structure for future enhancement
+
+---
+
+## Test Execution Report
+Below are sample Extent Reports generated after executing the test suite:
+
+- Test Cases Execution Status  
+  <a id="test-cases-execution-status"></a>
+  <p align="left">
+    <img src="./ScreenShots/TestReportScreenShots/test-results-summary.png" alt="Extent Report Test Summary" width="85%"/>
+  </p>
+
+- Dashboard Overview  
+  <a id="dashboard-overview"></a>
+  <p align="left">
+    <img src="./ScreenShots/TestReportScreenShots/test-details.png" alt="Extent Report Dashboard" width="85%"/>
+  </p>
+
 
 ---
 
