@@ -39,6 +39,6 @@ public class LoginPage {
 	
 	public void login()
 	{
-		Login.click();
+		executor.executeScript("arguments[0].click();", Login);
 	}
 }

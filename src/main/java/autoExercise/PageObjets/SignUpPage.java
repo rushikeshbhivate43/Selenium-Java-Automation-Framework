@@ -114,7 +114,7 @@ public class SignUpPage {
 	
 	public void signUpButton()
 	{
-		SignUpButton.click();
+		executor.executeScript("arguments[0].click();", SignUpButton);
 	}
 	
 	public void firstName(String FName)

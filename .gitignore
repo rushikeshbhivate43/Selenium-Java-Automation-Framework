@@ -2,3 +2,6 @@ Reports/
 ScreenShots/
 target/
 test-output/
+*.log
+*.class
+*.jar
