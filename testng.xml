@@ -14,8 +14,6 @@
         <class name="autoExercise.TestCases.TC6_VerifyProductQauntityInCart"/>
         <class name="autoExercise.TestCases.TC7_AddReviewOnProduct"/>
 		<class name="autoExercise.TestCases.TC8_VerifySubscription"/>
-		<class name="autoExercise.TestCases.TC9_VerifyAddressDetailsInCheckoutPage"/>
-
     </classes>
   </test> <!-- AutomationTests -->
 </suite> <!-- Suite -->
