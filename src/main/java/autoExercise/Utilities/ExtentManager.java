@@ -15,7 +15,7 @@ public class ExtentManager {
     public static ExtentReports getInstance() {
         if (extent == null) {
         	
-        	String timestamp = new SimpleDateFormat("yyyy.mm.dd.hh.mm.ss").format(new Date());
+        	String timestamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
     		String reportName = "Automation Exercise Test Reports" + timestamp + ".html";
     		ExtentSparkReporter htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "//Reports//" + reportName);
             htmlReporter.config().setDocumentTitle("Automation Exercise Test Report");
@@ -25,10 +25,8 @@ public class ExtentManager {
             extent = new ExtentReports();
             extent.attachReporter(htmlReporter);
             
-            ReadConfig readConfig = new ReadConfig();
             extent.setSystemInfo("machine", "LAPTOP-B8TJUCIE");
             extent.setSystemInfo("os", "window 11 pro");
-            extent.setSystemInfo("browser", readConfig.getBrowser());
             extent.setSystemInfo("user name", "Rushi");
         }
         return extent;

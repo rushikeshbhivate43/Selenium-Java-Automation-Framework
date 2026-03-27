@@ -1,119 +1,196 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-08T22:15:21 IST" name="Suite" finished-at="2025-12-08T22:23:09 IST" duration-ms="467489">
+  <suite started-at="2026-03-26T16:11:21 IST" name="Suite" finished-at="2026-03-26T16:13:56 IST" duration-ms="155176">
     <groups>
     </groups>
-    <test started-at="2025-12-08T22:15:21 IST" name="AutomationTests" finished-at="2025-12-08T22:23:09 IST" duration-ms="467489">
+    <test started-at="2026-03-26T16:11:21 IST" name="AutomationTests" finished-at="2026-03-26T16:13:56 IST" duration-ms="155176">
       <class name="autoExercise.TestCases.TC3_RegisterUserWithExistingEmail">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:autoExercise.TestCases.TC3_RegisterUserWithExistingEmail@68be8808]" started-at="2025-12-08T22:15:52 IST" name="setUp" finished-at="2025-12-08T22:15:57 IST" duration-ms="5799" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:autoExercise.TestCases.TC3_RegisterUserWithExistingEmail@7e7b159b]" started-at="2026-03-26T16:11:56 IST" name="setUp" finished-at="2026-03-26T16:12:01 IST" duration-ms="4305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyRegisterUserIsAlreadyExist()[pri:0, instance:autoExercise.TestCases.TC3_RegisterUserWithExistingEmail@68be8808]" started-at="2025-12-08T22:15:57 IST" name="verifyRegisterUserIsAlreadyExist" finished-at="2025-12-08T22:16:26 IST" duration-ms="28266" status="PASS">
+        <test-method signature="verifyRegisterUserIsAlreadyExist()[pri:0, instance:autoExercise.TestCases.TC3_RegisterUserWithExistingEmail@7e7b159b]" started-at="2026-03-26T16:12:01 IST" name="verifyRegisterUserIsAlreadyExist" finished-at="2026-03-26T16:12:05 IST" duration-ms="4287" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterUserIsAlreadyExist -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:autoExercise.TestCases.TC3_RegisterUserWithExistingEmail@68be8808]" started-at="2025-12-08T22:16:26 IST" name="tearDown" finished-at="2025-12-08T22:16:26 IST" duration-ms="605" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autoExercise.TestCases.TC3_RegisterUserWithExistingEmail@7e7b159b]" started-at="2026-03-26T16:12:05 IST" name="tearDown" finished-at="2026-03-26T16:12:06 IST" duration-ms="684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- autoExercise.TestCases.TC3_RegisterUserWithExistingEmail -->
-      <class name="autoExercise.TestCases.TC4_ContactUsForm">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:autoExercise.TestCases.TC4_ContactUsForm@32193bea]" started-at="2025-12-08T22:16:26 IST" name="setUp" finished-at="2025-12-08T22:16:33 IST" duration-ms="6289" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="contactUsForm()[pri:0, instance:autoExercise.TestCases.TC4_ContactUsForm@32193bea]" started-at="2025-12-08T22:16:33 IST" name="contactUsForm" finished-at="2025-12-08T22:16:43 IST" duration-ms="9885" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contactUsForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:autoExercise.TestCases.TC4_ContactUsForm@32193bea]" started-at="2025-12-08T22:16:43 IST" name="tearDown" finished-at="2025-12-08T22:16:43 IST" duration-ms="539" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- autoExercise.TestCases.TC4_ContactUsForm -->
-      <class name="autoExercise.TestCases.TC5_AddProductsInCart">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:autoExercise.TestCases.TC5_AddProductsInCart@6b8d96d9]" started-at="2025-12-08T22:16:43 IST" name="setUp" finished-at="2025-12-08T22:18:50 IST" duration-ms="126634" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="addProductsInCart()[pri:0, instance:autoExercise.TestCases.TC5_AddProductsInCart@6b8d96d9]" started-at="2025-12-08T22:18:50 IST" name="addProductsInCart" finished-at="2025-12-08T22:21:39 IST" duration-ms="169006" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addProductsInCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:autoExercise.TestCases.TC5_AddProductsInCart@6b8d96d9]" started-at="2025-12-08T22:21:39 IST" name="tearDown" finished-at="2025-12-08T22:21:39 IST" duration-ms="715" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- autoExercise.TestCases.TC5_AddProductsInCart -->
       <class name="autoExercise.TestCases.TC6_VerifyProductQauntityInCart">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:autoExercise.TestCases.TC6_VerifyProductQauntityInCart@69653e16]" started-at="2025-12-08T22:21:39 IST" name="setUp" finished-at="2025-12-08T22:22:01 IST" duration-ms="21167" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:autoExercise.TestCases.TC6_VerifyProductQauntityInCart@293a5f75]" started-at="2026-03-26T16:12:40 IST" name="setUp" finished-at="2026-03-26T16:12:45 IST" duration-ms="5186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyProductQuanitytInCart()[pri:0, instance:autoExercise.TestCases.TC6_VerifyProductQauntityInCart@69653e16]" started-at="2025-12-08T22:22:01 IST" name="verifyProductQuanitytInCart" finished-at="2025-12-08T22:22:24 IST" duration-ms="22911" status="PASS">
+        <test-method signature="verifyProductQuanitytInCart()[pri:0, instance:autoExercise.TestCases.TC6_VerifyProductQauntityInCart@293a5f75]" started-at="2026-03-26T16:12:45 IST" name="verifyProductQuanitytInCart" finished-at="2026-03-26T16:13:01 IST" duration-ms="16477" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductQuanitytInCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:autoExercise.TestCases.TC6_VerifyProductQauntityInCart@69653e16]" started-at="2025-12-08T22:22:24 IST" name="tearDown" finished-at="2025-12-08T22:22:24 IST" duration-ms="564" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autoExercise.TestCases.TC6_VerifyProductQauntityInCart@293a5f75]" started-at="2026-03-26T16:13:01 IST" name="tearDown" finished-at="2026-03-26T16:13:02 IST" duration-ms="923" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- autoExercise.TestCases.TC6_VerifyProductQauntityInCart -->
-      <class name="autoExercise.TestCases.TC1_RegisterUser">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:autoExercise.TestCases.TC1_RegisterUser@37c7595]" started-at="2025-12-08T22:15:21 IST" name="setUp" finished-at="2025-12-08T22:15:32 IST" duration-ms="10340" status="PASS">
+      <class name="autoExercise.TestCases.TC5_AddProductsInCart">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:autoExercise.TestCases.TC5_AddProductsInCart@60957c0f]" started-at="2026-03-26T16:12:21 IST" name="setUp" finished-at="2026-03-26T16:12:23 IST" duration-ms="2609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUserCanSignUp()[pri:0, instance:autoExercise.TestCases.TC1_RegisterUser@37c7595]" started-at="2025-12-08T22:15:32 IST" name="verifyUserCanSignUp" finished-at="2025-12-08T22:15:40 IST" duration-ms="8353" status="PASS">
+        <test-method signature="addProductsInCart()[pri:0, instance:autoExercise.TestCases.TC5_AddProductsInCart@60957c0f]" started-at="2026-03-26T16:12:23 IST" name="addProductsInCart" finished-at="2026-03-26T16:12:39 IST" duration-ms="15664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductsInCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autoExercise.TestCases.TC5_AddProductsInCart@60957c0f]" started-at="2026-03-26T16:12:39 IST" name="tearDown" finished-at="2026-03-26T16:12:40 IST" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- autoExercise.TestCases.TC5_AddProductsInCart -->
+      <class name="autoExercise.TestCases.TC4_ContactUsForm">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:autoExercise.TestCases.TC4_ContactUsForm@7e5d9a50]" started-at="2026-03-26T16:12:06 IST" name="setUp" finished-at="2026-03-26T16:12:10 IST" duration-ms="4550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="contactUsForm()[pri:0, instance:autoExercise.TestCases.TC4_ContactUsForm@7e5d9a50]" started-at="2026-03-26T16:12:10 IST" name="contactUsForm" finished-at="2026-03-26T16:12:20 IST" duration-ms="9747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUsForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autoExercise.TestCases.TC4_ContactUsForm@7e5d9a50]" started-at="2026-03-26T16:12:20 IST" name="tearDown" finished-at="2026-03-26T16:12:21 IST" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- autoExercise.TestCases.TC4_ContactUsForm -->
+      <class name="autoExercise.TestCases.TC9_VerifyAddressDetailsInCheckoutPage">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:autoExercise.TestCases.TC9_VerifyAddressDetailsInCheckoutPage@56e8b606]" started-at="2026-03-26T16:13:30 IST" name="setUp" finished-at="2026-03-26T16:13:35 IST" duration-ms="4562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddressDetailsCheckoutPage()[pri:0, instance:autoExercise.TestCases.TC9_VerifyAddressDetailsInCheckoutPage@56e8b606]" started-at="2026-03-26T16:13:35 IST" name="verifyAddressDetailsCheckoutPage" finished-at="2026-03-26T16:13:56 IST" duration-ms="20559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddressDetailsCheckoutPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autoExercise.TestCases.TC9_VerifyAddressDetailsInCheckoutPage@56e8b606]" started-at="2026-03-26T16:13:56 IST" name="tearDown" finished-at="2026-03-26T16:13:56 IST" duration-ms="754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- autoExercise.TestCases.TC9_VerifyAddressDetailsInCheckoutPage -->
+      <class name="autoExercise.TestCases.TC1_RegisterUser">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:autoExercise.TestCases.TC1_RegisterUser@7a560583]" started-at="2026-03-26T16:11:21 IST" name="setUp" finished-at="2026-03-26T16:11:28 IST" duration-ms="7159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserCanSignUp()[pri:0, instance:autoExercise.TestCases.TC1_RegisterUser@7a560583]" started-at="2026-03-26T16:11:28 IST" name="verifyUserCanSignUp" finished-at="2026-03-26T16:11:41 IST" duration-ms="13074" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserCanSignUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:autoExercise.TestCases.TC1_RegisterUser@37c7595]" started-at="2025-12-08T22:15:40 IST" name="tearDown" finished-at="2025-12-08T22:15:41 IST" duration-ms="437" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autoExercise.TestCases.TC1_RegisterUser@7a560583]" started-at="2026-03-26T16:11:41 IST" name="tearDown" finished-at="2026-03-26T16:11:42 IST" duration-ms="850" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- autoExercise.TestCases.TC1_RegisterUser -->
       <class name="autoExercise.TestCases.TC8_VerifySubscription">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:autoExercise.TestCases.TC8_VerifySubscription@49d3c823]" started-at="2025-12-08T22:22:51 IST" name="setUp" finished-at="2025-12-08T22:22:58 IST" duration-ms="6838" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:autoExercise.TestCases.TC8_VerifySubscription@1dd6d4b7]" started-at="2026-03-26T16:13:18 IST" name="setUp" finished-at="2026-03-26T16:13:22 IST" duration-ms="3961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySubscription()[pri:0, instance:autoExercise.TestCases.TC8_VerifySubscription@49d3c823]" started-at="2025-12-08T22:22:58 IST" name="verifySubscription" finished-at="2025-12-08T22:23:08 IST" duration-ms="10468" status="PASS">
+        <test-method signature="verifySubscription()[pri:0, instance:autoExercise.TestCases.TC8_VerifySubscription@1dd6d4b7]" started-at="2026-03-26T16:13:22 IST" name="verifySubscription" finished-at="2026-03-26T16:13:30 IST" duration-ms="7181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySubscription -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:autoExercise.TestCases.TC8_VerifySubscription@49d3c823]" started-at="2025-12-08T22:23:08 IST" name="tearDown" finished-at="2025-12-08T22:23:09 IST" duration-ms="472" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autoExercise.TestCases.TC8_VerifySubscription@1dd6d4b7]" started-at="2026-03-26T16:13:30 IST" name="tearDown" finished-at="2026-03-26T16:13:30 IST" duration-ms="856" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- autoExercise.TestCases.TC8_VerifySubscription -->
       <class name="autoExercise.TestCases.TC7_AddReviewOnProduct">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:autoExercise.TestCases.TC7_AddReviewOnProduct@758705fa]" started-at="2025-12-08T22:22:24 IST" name="setUp" finished-at="2025-12-08T22:22:34 IST" duration-ms="10388" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:autoExercise.TestCases.TC7_AddReviewOnProduct@fcb4004]" started-at="2026-03-26T16:13:02 IST" name="setUp" finished-at="2026-03-26T16:13:06 IST" duration-ms="4129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addReviewOnProduct()[pri:0, instance:autoExercise.TestCases.TC7_AddReviewOnProduct@758705fa]" started-at="2025-12-08T22:22:34 IST" name="addReviewOnProduct" finished-at="2025-12-08T22:22:50 IST" duration-ms="15964" status="PASS">
+        <test-method signature="addReviewOnProduct()[pri:0, instance:autoExercise.TestCases.TC7_AddReviewOnProduct@fcb4004]" started-at="2026-03-26T16:13:06 IST" name="addReviewOnProduct" finished-at="2026-03-26T16:13:18 IST" duration-ms="11347" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addReviewOnProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:autoExercise.TestCases.TC7_AddReviewOnProduct@758705fa]" started-at="2025-12-08T22:22:50 IST" name="tearDown" finished-at="2025-12-08T22:22:51 IST" duration-ms="586" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autoExercise.TestCases.TC7_AddReviewOnProduct@fcb4004]" started-at="2026-03-26T16:13:18 IST" name="tearDown" finished-at="2026-03-26T16:13:18 IST" duration-ms="711" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- autoExercise.TestCases.TC7_AddReviewOnProduct -->
       <class name="autoExercise.TestCases.TC2_LoginUser">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:autoExercise.TestCases.TC2_LoginUser@cd1d761]" started-at="2025-12-08T22:15:41 IST" name="setUp" finished-at="2025-12-08T22:15:45 IST" duration-ms="4745" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:autoExercise.TestCases.TC2_LoginUser@37efd131]" started-at="2026-03-26T16:11:42 IST" name="setUp" finished-at="2026-03-26T16:11:48 IST" duration-ms="6170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLoginUser()[pri:0, instance:autoExercise.TestCases.TC2_LoginUser@cd1d761]" started-at="2025-12-08T22:15:45 IST" name="verifyLoginUser" finished-at="2025-12-08T22:15:51 IST" duration-ms="5965" status="PASS">
+        <test-method signature="verifyLoginUser()[pri:0, instance:autoExercise.TestCases.TC2_LoginUser@37efd131]" started-at="2026-03-26T16:11:48 IST" name="verifyLoginUser" finished-at="2026-03-26T16:11:56 IST" duration-ms="7198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginUser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:autoExercise.TestCases.TC2_LoginUser@cd1d761]" started-at="2025-12-08T22:15:51 IST" name="tearDown" finished-at="2025-12-08T22:15:52 IST" duration-ms="432" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:autoExercise.TestCases.TC2_LoginUser@37efd131]" started-at="2026-03-26T16:11:56 IST" name="tearDown" finished-at="2026-03-26T16:11:56 IST" duration-ms="705" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

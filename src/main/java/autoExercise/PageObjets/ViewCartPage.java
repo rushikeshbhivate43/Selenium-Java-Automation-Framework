@@ -29,6 +29,9 @@ public class ViewCartPage {
 	@FindBy(xpath = "//a[@class=\"cart_quantity_delete\"]")
 	WebElement RemoveProduct;
 	
+	@FindBy(xpath = "//a[text()=\"Proceed To Checkout\"]")
+	WebElement ProceedToCheckout;
+	
 	public String getProductPriceInViewCart()
 	{
 		return ProductPrice_InViewCart.getText();
@@ -37,6 +40,11 @@ public class ViewCartPage {
 	public String getProductQuantity()
 	{
 		return ProductQuantity.getText();
+	}
+	
+	public void proceedToCheckout()
+	{
+		ProceedToCheckout.click();
 	}
 	
 	public void removeProduct() throws InterruptedException

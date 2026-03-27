@@ -1,8 +1,8 @@
 package autoExercise.Utilities;
 
 import java.time.Duration;
-import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -10,70 +10,72 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
 
-	ReadConfig readConfig = new ReadConfig();
-	String url = readConfig.getBaseUrl();
-	String browser = readConfig.getBrowser();
+    ReadConfig readConfig = new ReadConfig();
+    String url = readConfig.getBaseUrl();
 
-	public static WebDriver driver;
-	public static Logger logger;
+    public static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+    public static Logger logger;
 
-	@BeforeClass
-	public void setUp() {
+    public WebDriver getDriver() {
+        return driver.get();
+    }
 
-		String browser = "CHROME";
+    @Parameters("browser")
+    @BeforeClass
+    public void setUp(@Optional("edge") String browser) {
 
-		switch (browser.toUpperCase())
-		{
+        System.out.println("===== Driver setup started =====");
+        System.out.println("Running on browser: " + browser);
 
-		case "CHROME":
-			
-			ChromeOptions option = new ChromeOptions();
+        switch (browser.toUpperCase()) {
+
+        case "CHROME":
+            ChromeOptions option = new ChromeOptions();
             option.addArguments("--remote-allow-origins=*");
-            option.addArguments("--disable-popup-blocking");
-            option.addArguments("--disable-save-password-bubble");
-            option.addArguments("--disable-autofill-profile-update-prompt");
-
             WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver(option);
-			break;
+            driver.set(new ChromeDriver(option));
+            break;
 
-		case "FIREFOX":
+        case "FIREFOX":
+            WebDriverManager.firefoxdriver().setup();
+            driver.set(new FirefoxDriver());
+            break;
 
-			WebDriverManager.chromedriver().setup();
-			driver = new FirefoxDriver();
-			break;
+        case "EDGE":
+        	System.setProperty("webdriver.edge.driver", "C:\\Eclipse Workspace\\Driver\\msedgedriver.exe");            
+        	driver.set(new EdgeDriver());
+            break;
+        
+        default:
+            throw new IllegalArgumentException("Browser not supported: " + browser);
+        }
 
-		case "MSEDGE":
+        getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+        getDriver().manage().window().maximize();
 
-			WebDriverManager.chromedriver().setup();
-			driver = new EdgeDriver();
-			break;
-		default:
-			break;
-		}
+        logger = LogManager.getLogger("ERP");
 
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-		logger = LogManager.getLogger("ERP");
+        getDriver().get(url);
 
-		driver.manage().window().maximize();
-		ExtentListner.driver = driver;
-		driver.get(url);
-		
-		logger.info("Url Opened");
-	}
+        logger.info("URL Opened: " + url);
+    }
 
-	@AfterClass
-	public void tearDown() {
+  @AfterClass
+    public void tearDown() {
 
-		driver.close();
-		driver.quit();
-	}
-	 
-	 
+        if (getDriver() != null) {
+            getDriver().quit();
+            driver.remove();
+        }
+
+        logger.info("Browser Closed");
+    }
+ 
 }

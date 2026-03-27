@@ -1,0 +1,11 @@
+[2026-03-25 15:39:49] [INFO] MyFramework - Url Opened
+[2026-03-25 15:40:28] [INFO] MyFramework - Account created successfully for user: Sam Smith
+[2026-03-25 15:42:21] [INFO] MyFramework - Url Opened
+[2026-03-25 15:44:11] [INFO] MyFramework - Url Opened
+[2026-03-25 15:44:26] [INFO] MyFramework - Account created successfully for user: John Run
+[2026-03-25 15:54:13] [INFO] MyFramework - Url Opened
+[2026-03-25 15:54:13] [INFO] MyFramework - Starting test: verifyLoginUser
+[2026-03-25 15:54:15] [INFO] MyFramework - Navigated to Sign Up / Login page
+[2026-03-25 15:54:19] [INFO] MyFramework - Entered credentials and clicked login
+[2026-03-25 15:54:19] [INFO] MyFramework - Login Successful - Delete Account button displayed
+[2026-03-25 15:54:19] [INFO] MyFramework - Ending test: verifyLoginUser

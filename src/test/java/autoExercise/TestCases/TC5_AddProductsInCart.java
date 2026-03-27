@@ -1,16 +1,21 @@
 package autoExercise.TestCases;
 
+import java.awt.Component.BaselineResizeBehavior;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.gherkin.model.And;
+import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import autoExercise.PageObjets.HomePage;
 import autoExercise.PageObjets.ProductsPage;
 import autoExercise.PageObjets.ViewCartPage;
 import autoExercise.Utilities.BaseClass;
+import scala.annotation.implicitAmbiguous;
 
 /**
- * Test Case: Add product in cart.
+ * Test Case: Add product in cart
  * Steps:
  * 1. Login by user
  * 2. Navigate to the Product page.
@@ -19,7 +24,7 @@ import autoExercise.Utilities.BaseClass;
  * 5. click on view cart
  * 6. Get the product price on cart page.
  * 7. Compare the price.
- * 8. Removed product from cart to maintain clean state for next test run.
+ * 8. Removed product from cart to maintain clean state for next test run
  */
 
 public class TC5_AddProductsInCart extends BaseClass {
@@ -32,10 +37,10 @@ public class TC5_AddProductsInCart extends BaseClass {
 	    TC2_LoginUser login = new TC2_LoginUser();
 	    login.verifyLoginUser();
 
-	    HomePage homePage = new HomePage(driver);
+	    HomePage homePage = new HomePage(getDriver());
 	    homePage.products();
 
-	    ProductsPage productsPage = new ProductsPage(driver);
+	    ProductsPage productsPage = new ProductsPage(getDriver());
 	    productsPage.hoverToFirstProduct();
 	    String ProductPrice = productsPage.getProductPrice();
 	    logger.info("Captured product price from Products page: {}", ProductPrice);
@@ -44,9 +49,9 @@ public class TC5_AddProductsInCart extends BaseClass {
 	    logger.info("Added product to cart.");
 
 	    productsPage.viewCart();
-	    ViewCartPage viewCart = new ViewCartPage(driver);
+	    ViewCartPage viewCart = new ViewCartPage(getDriver());
 	    logger.info("Opened View Cart page.");
-
+	    	    
 	    String ProductPrice_InViewCart = viewCart.getProductPriceInViewCart();
 	    String ProductQuantity = viewCart.getProductQuantity();
 	    logger.info("View Cart Details -> Price: {} | Quantity: {}",ProductPrice_InViewCart, ProductQuantity);
@@ -58,7 +63,9 @@ public class TC5_AddProductsInCart extends BaseClass {
 	        logger.info("Product  quantity has not been added to the cart or quantity not matched.");
 			logger.info("Removed product from cart to maintain clean state for next test run.");
 	        Assert.fail("Failed! Product has not been added to the cart...");
+	        logger.info("Product quantity has not been added to the car ov ");
 	    }
+	    
         viewCart.removeProduct();
 		logger.info("Removed product from cart to maintain clean state for next test run.");
 		logger.info("Ending test: addProductsInCart");

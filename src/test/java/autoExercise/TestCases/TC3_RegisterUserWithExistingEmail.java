@@ -21,10 +21,10 @@ public class TC3_RegisterUserWithExistingEmail extends BaseClass {
 	@Test
 	public void verifyRegisterUserIsAlreadyExist()
 	{
-		HomePage homePage = new HomePage(driver);
+		HomePage homePage = new HomePage(getDriver());
 		homePage.signUp();
 		
-		SignUpPage signUP = new SignUpPage(driver);
+		SignUpPage signUP = new SignUpPage(getDriver());
 		signUP.name("Rushikesh Bhivate");
 
 		signUP.emailAddress("rushikeshbhivate43@gmail.com");

@@ -43,15 +43,23 @@ public class ExtentListner implements ITestListener {
 
     @Override
     public void onTestFailure(ITestResult result) {
-    	test.get().log(Status.FAIL, MarkupHelper.createLabel("Name of the failed test case is: " + result.getName(), ExtentColor.RED));
+        
+        test.get().log(Status.FAIL, 
+            MarkupHelper.createLabel("Name of the failed test case is: " + result.getName(), ExtentColor.RED));
+
         try {
+
+            Object testClass = result.getInstance();
+            driver = ((BaseClass) testClass).getDriver();   // get driver from BaseClass
+
             String screenshotPath = takeScreenshot(result.getMethod().getMethodName());
-            test.get().addScreenCaptureFromPath(new File(screenshotPath).getAbsolutePath());
-        } catch (IOException e) {
+            test.get().addScreenCaptureFromPath(screenshotPath);
+
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
-
+    
     @Override
     public void onTestSkipped(ITestResult result) {
     	test.get().log(Status.SKIP, MarkupHelper.createLabel("Name of the skipped test case is: " + result.getName(), ExtentColor.YELLOW));

@@ -33,20 +33,20 @@ public class TC6_VerifyProductQauntityInCart extends BaseClass  {
 
 		logger.info("Starting test: verify product quantity in cart");
 
-		HomePage homePage = new HomePage(driver);
+		HomePage homePage = new HomePage(getDriver());
 		homePage.products();
 
-		ProductsPage productsPage = new ProductsPage(driver);
+		ProductsPage productsPage = new ProductsPage(getDriver());
 		productsPage.viewProduct();
 
-		ProductsDetailsPage productDetails = new ProductsDetailsPage(driver);
+		ProductsDetailsPage productDetails = new ProductsDetailsPage(getDriver());
 		productDetails.quantity("4");
 		productDetails.addToCart();
 		logger.info("Product quantity set to 4 and added to cart.");
 
 		productsPage.viewCart();
 
-		ViewCartPage viewCart = new ViewCartPage(driver);
+		ViewCartPage viewCart = new ViewCartPage(getDriver());
 		String ProductQuantity = viewCart.getProductQuantity();
 		logger.info("Quantity displayed in cart: {}", ProductQuantity);
 

@@ -28,13 +28,13 @@ public class TC7_AddReviewOnProduct extends BaseClass{
 
 		logger.info("Starting test: add review product");
 
-		HomePage homePage = new HomePage(driver);
+		HomePage homePage = new HomePage(getDriver());
 		homePage.products();
 
-		ProductsPage productsPage = new ProductsPage(driver);
+		ProductsPage productsPage = new ProductsPage(getDriver());
 		productsPage.viewProduct();
 		
-		ProductsDetailsPage productDetails = new ProductsDetailsPage(driver);
+		ProductsDetailsPage productDetails = new ProductsDetailsPage(getDriver());
 		productDetails.name("Aatreya");
 		productDetails.email("AatreyaSharma@gmail.com");
 		productDetails.addReviewHere("Excellent Product!");

@@ -24,7 +24,7 @@ public class TC8_VerifySubscription extends BaseClass {
 		login.verifyLoginUser();
 		
 		logger.info("Starting test: verify subscription");
-		HomePage homePage = new HomePage(driver);
+		HomePage homePage = new HomePage(getDriver());
 		homePage.subscribeEmail("rushikeshbhivate43@gmail.com");
 		homePage.subscribeButton();
 		homePage.verifySubscriptionSuccessMsg();

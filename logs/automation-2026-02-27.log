@@ -1,0 +1,10 @@
+[2026-02-27 11:47:31] [INFO] MyFramework - Url Opened
+[2026-02-27 11:47:31] [INFO] MyFramework - Starting test: verifyLoginUser
+[2026-02-27 11:47:32] [INFO] MyFramework - Navigated to Sign Up / Login page
+[2026-02-27 11:47:37] [INFO] MyFramework - Entered credentials and clicked login
+[2026-02-27 11:47:37] [INFO] MyFramework - Login Successful - Delete Account button displayed
+[2026-02-27 11:47:37] [INFO] MyFramework - Ending test: verifyLoginUser
+[2026-02-27 11:50:39] [INFO] MyFramework - Url Opened
+[2026-02-27 11:50:49] [INFO] MyFramework - Account created successfully for user: Saraswati Tandon
+[2026-02-27 15:14:47] [INFO] MyFramework - Url Opened
+[2026-02-27 15:14:55] [INFO] MyFramework - Account created successfully for user: Gajadhar Pillai

@@ -28,16 +28,16 @@ public class TC4_ContactUsForm extends BaseClass {
 		TC2_LoginUser login = new TC2_LoginUser();
 		login.verifyLoginUser();
 		
-		HomePage homePage = new HomePage(driver);
+		HomePage homePage = new HomePage(getDriver());
 		homePage.contactUs();
 		
-		ContactUsPage contactUs = new ContactUsPage(driver);
+		ContactUsPage contactUs = new ContactUsPage(getDriver());
 		contactUs.name("Rushikesh Bhivate");
 		contactUs.email("rushikeshbhivate43@gmail.com");
 		contactUs.subject("Test Subject 123");
 		contactUs.message("This is a dummy message for automation script testing purposes. Please ignore.");
 		contactUs.submit();
-		Alert alert = driver.switchTo().alert();
+		Alert alert = getDriver().switchTo().alert();
 		alert.accept();
 		try {
 			contactUs.isSuccessMessageDisplayed();

@@ -46,6 +46,12 @@ public class HomePage {
 	
 	private By SubscriptionSuccesMsg = By.xpath("//div[@class=\"alert-success alert\"]");
 	
+	@FindBy(xpath ="//a[text()=\"Continue\"]")
+	WebElement Continue;
+	
+	@FindBy(xpath = "//a[@href=\"/logout\"]")
+	WebElement Logout;
+	
 	public void signUp()
 	{
 		SignUp.click();
@@ -96,6 +102,16 @@ public class HomePage {
 	            logger.error("Successfully subscribed message NOT found (maybe disappeared too fast)", e);
 	            return false;
 	        }
-	       
+	}
+	
+	public void clickContinue()
+	{
+		Continue.click();
+	}	
+	
+	public void logOut()
+	{
+		executor.executeScript("arguments[0].click();", Logout);
+		driver.navigate().refresh();
 	}
 }

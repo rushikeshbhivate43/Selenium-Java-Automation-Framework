@@ -21,11 +21,11 @@ public class TC2_LoginUser extends BaseClass{
 	public void verifyLoginUser() {
 		logger.info("Starting test: verifyLoginUser");
 
-		HomePage homepage = new HomePage(driver);
+		HomePage homepage = new HomePage(getDriver());
 		homepage.signUp();
 		logger.info("Navigated to Sign Up / Login page");
 
-		LoginPage login = new LoginPage(driver);
+		LoginPage login = new LoginPage(getDriver());
 		login.emailAddress("rushikeshbhivate43@gmail.com");
 		login.Password("Rushikesh@1234");
 		login.login();

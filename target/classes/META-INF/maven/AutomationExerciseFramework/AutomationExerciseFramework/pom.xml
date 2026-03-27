@@ -9,13 +9,13 @@
 
   <name>AutomationExerciseFramework</name>
   <!-- FIXME change it to the project's website -->
+   
   <url>http://www.example.com</url>
-
+  
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>17</maven.compiler.release>
   </properties>
-
   <dependencyManagement>
     <dependencies>
       <dependency>

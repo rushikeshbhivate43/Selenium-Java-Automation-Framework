@@ -1,0 +1,259 @@
+[2025-12-10 15:44:37] [INFO] ERP - Url Opened
+[2025-12-10 15:44:37] [INFO] ERP - Starting test: verifyLoginUser
+[2025-12-10 15:44:38] [INFO] ERP - Navigated to Sign Up / Login page
+[2025-12-10 15:44:39] [INFO] ERP - Entered credentials and clicked login
+[2025-12-10 15:44:42] [INFO] ERP - Login Successful - Delete Account button displayed
+[2025-12-10 15:44:42] [INFO] ERP - Ending test: verifyLoginUser
+[2025-12-10 15:59:36] [INFO] ERP - Url Opened
+[2025-12-10 15:59:36] [INFO] ERP - Starting test: verifyLoginUser
+[2025-12-10 16:00:18] [INFO] ERP - Url Opened
+[2025-12-10 16:00:18] [INFO] ERP - Starting test: verifyLoginUser
+[2025-12-10 16:00:19] [INFO] ERP - Navigated to Sign Up / Login page
+[2025-12-10 16:00:20] [INFO] ERP - Entered credentials and clicked login
+[2025-12-10 16:00:23] [INFO] ERP - Login Successful - Delete Account button displayed
+[2025-12-10 16:00:23] [INFO] ERP - Ending test: verifyLoginUser
+[2025-12-10 16:00:24] [INFO] ERP - https://automationexercise.com/ --> ACTIVE [200]
+[2025-12-10 16:00:24] [INFO] ERP - https://automationexercise.com/ --> ACTIVE [200]
+[2025-12-10 16:00:24] [INFO] ERP - https://automationexercise.com/products --> ACTIVE [200]
+[2025-12-10 16:00:25] [INFO] ERP - https://automationexercise.com/view_cart --> ACTIVE [200]
+[2025-12-10 16:00:25] [ERROR] ERP - https://automationexercise.com/logout --> BROKEN [500]
+[2025-12-10 16:00:25] [INFO] ERP - https://automationexercise.com/delete_account --> ACTIVE [200]
+[2025-12-10 16:00:26] [INFO] ERP - https://automationexercise.com/test_cases --> ACTIVE [200]
+[2025-12-10 16:00:26] [INFO] ERP - https://automationexercise.com/api_list --> ACTIVE [200]
+[2025-12-10 16:00:26] [INFO] ERP - https://www.youtube.com/c/AutomationExercise --> ACTIVE [200]
+[2025-12-10 16:00:27] [INFO] ERP - https://automationexercise.com/contact_us --> ACTIVE [200]
+[2025-12-10 16:00:27] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:27] [INFO] ERP - https://automationexercise.com/test_cases --> ACTIVE [200]
+[2025-12-10 16:00:27] [INFO] ERP - https://automationexercise.com/api_list --> ACTIVE [200]
+[2025-12-10 16:00:28] [INFO] ERP - https://automationexercise.com/test_cases --> ACTIVE [200]
+[2025-12-10 16:00:28] [INFO] ERP - https://automationexercise.com/api_list --> ACTIVE [200]
+[2025-12-10 16:00:28] [INFO] ERP - https://automationexercise.com/test_cases --> ACTIVE [200]
+[2025-12-10 16:00:29] [INFO] ERP - https://automationexercise.com/api_list --> ACTIVE [200]
+[2025-12-10 16:00:29] [INFO] ERP - https://automationexercise.com/#slider-carousel --> ACTIVE [200]
+[2025-12-10 16:00:29] [INFO] ERP - https://automationexercise.com/#slider-carousel --> ACTIVE [200]
+[2025-12-10 16:00:30] [INFO] ERP - https://automationexercise.com/#Women --> ACTIVE [200]
+[2025-12-10 16:00:30] [INFO] ERP - https://automationexercise.com/category_products/1 --> ACTIVE [200]
+[2025-12-10 16:00:30] [INFO] ERP - https://automationexercise.com/category_products/2 --> ACTIVE [200]
+[2025-12-10 16:00:31] [INFO] ERP - https://automationexercise.com/category_products/7 --> ACTIVE [200]
+[2025-12-10 16:00:31] [INFO] ERP - https://automationexercise.com/#Men --> ACTIVE [200]
+[2025-12-10 16:00:31] [INFO] ERP - https://automationexercise.com/category_products/3 --> ACTIVE [200]
+[2025-12-10 16:00:32] [INFO] ERP - https://automationexercise.com/category_products/6 --> ACTIVE [200]
+[2025-12-10 16:00:32] [INFO] ERP - https://automationexercise.com/#Kids --> ACTIVE [200]
+[2025-12-10 16:00:32] [INFO] ERP - https://automationexercise.com/category_products/4 --> ACTIVE [200]
+[2025-12-10 16:00:33] [INFO] ERP - https://automationexercise.com/category_products/5 --> ACTIVE [200]
+[2025-12-10 16:00:33] [INFO] ERP - https://automationexercise.com/brand_products/Polo --> ACTIVE [200]
+[2025-12-10 16:00:33] [INFO] ERP - https://automationexercise.com/brand_products/H&M --> ACTIVE [200]
+[2025-12-10 16:00:33] [INFO] ERP - https://automationexercise.com/brand_products/Madame --> ACTIVE [200]
+[2025-12-10 16:00:34] [INFO] ERP - https://automationexercise.com/brand_products/Mast%20&%20Harbour --> ACTIVE [200]
+[2025-12-10 16:00:34] [INFO] ERP - https://automationexercise.com/brand_products/Babyhug --> ACTIVE [200]
+[2025-12-10 16:00:34] [INFO] ERP - https://automationexercise.com/brand_products/Allen%20Solly%20Junior --> ACTIVE [200]
+[2025-12-10 16:00:35] [INFO] ERP - https://automationexercise.com/brand_products/Kookie%20Kids --> ACTIVE [200]
+[2025-12-10 16:00:35] [INFO] ERP - https://automationexercise.com/brand_products/Biba --> ACTIVE [200]
+[2025-12-10 16:00:35] [INFO] ERP - https://automationexercise.com/view_cart --> ACTIVE [200]
+[2025-12-10 16:00:35] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:35] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:36] [INFO] ERP - https://automationexercise.com/product_details/1 --> ACTIVE [200]
+[2025-12-10 16:00:36] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:36] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:36] [INFO] ERP - https://automationexercise.com/product_details/2 --> ACTIVE [200]
+[2025-12-10 16:00:36] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:36] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:37] [INFO] ERP - https://automationexercise.com/product_details/3 --> ACTIVE [200]
+[2025-12-10 16:00:37] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:37] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:37] [INFO] ERP - https://automationexercise.com/product_details/4 --> ACTIVE [200]
+[2025-12-10 16:00:37] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:37] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:37] [INFO] ERP - https://automationexercise.com/product_details/5 --> ACTIVE [200]
+[2025-12-10 16:00:37] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:37] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:38] [INFO] ERP - https://automationexercise.com/product_details/6 --> ACTIVE [200]
+[2025-12-10 16:00:38] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:38] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:38] [INFO] ERP - https://automationexercise.com/product_details/7 --> ACTIVE [200]
+[2025-12-10 16:00:38] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:38] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:39] [INFO] ERP - https://automationexercise.com/product_details/8 --> ACTIVE [200]
+[2025-12-10 16:00:39] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:39] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:39] [INFO] ERP - https://automationexercise.com/product_details/11 --> ACTIVE [200]
+[2025-12-10 16:00:39] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:39] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:39] [INFO] ERP - https://automationexercise.com/product_details/12 --> ACTIVE [200]
+[2025-12-10 16:00:39] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:39] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:40] [INFO] ERP - https://automationexercise.com/product_details/13 --> ACTIVE [200]
+[2025-12-10 16:00:40] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:40] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:40] [INFO] ERP - https://automationexercise.com/product_details/14 --> ACTIVE [200]
+[2025-12-10 16:00:40] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:40] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:41] [INFO] ERP - https://automationexercise.com/product_details/15 --> ACTIVE [200]
+[2025-12-10 16:00:41] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:41] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:41] [INFO] ERP - https://automationexercise.com/product_details/16 --> ACTIVE [200]
+[2025-12-10 16:00:41] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:41] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:41] [INFO] ERP - https://automationexercise.com/product_details/18 --> ACTIVE [200]
+[2025-12-10 16:00:41] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:41] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:42] [INFO] ERP - https://automationexercise.com/product_details/19 --> ACTIVE [200]
+[2025-12-10 16:00:42] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:42] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:42] [INFO] ERP - https://automationexercise.com/product_details/20 --> ACTIVE [200]
+[2025-12-10 16:00:42] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:42] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:42] [INFO] ERP - https://automationexercise.com/product_details/21 --> ACTIVE [200]
+[2025-12-10 16:00:42] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:42] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:43] [INFO] ERP - https://automationexercise.com/product_details/22 --> ACTIVE [200]
+[2025-12-10 16:00:43] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:43] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:43] [INFO] ERP - https://automationexercise.com/product_details/23 --> ACTIVE [200]
+[2025-12-10 16:00:43] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:43] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:43] [INFO] ERP - https://automationexercise.com/product_details/24 --> ACTIVE [200]
+[2025-12-10 16:00:43] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:43] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:44] [INFO] ERP - https://automationexercise.com/product_details/28 --> ACTIVE [200]
+[2025-12-10 16:00:44] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:44] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:44] [INFO] ERP - https://automationexercise.com/product_details/29 --> ACTIVE [200]
+[2025-12-10 16:00:44] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:44] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:44] [INFO] ERP - https://automationexercise.com/product_details/30 --> ACTIVE [200]
+[2025-12-10 16:00:44] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:44] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:45] [INFO] ERP - https://automationexercise.com/product_details/31 --> ACTIVE [200]
+[2025-12-10 16:00:45] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:45] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:45] [INFO] ERP - https://automationexercise.com/product_details/33 --> ACTIVE [200]
+[2025-12-10 16:00:45] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:45] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:46] [INFO] ERP - https://automationexercise.com/product_details/35 --> ACTIVE [200]
+[2025-12-10 16:00:46] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:46] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:46] [INFO] ERP - https://automationexercise.com/product_details/37 --> ACTIVE [200]
+[2025-12-10 16:00:46] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:46] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:46] [INFO] ERP - https://automationexercise.com/product_details/38 --> ACTIVE [200]
+[2025-12-10 16:00:46] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:46] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:47] [INFO] ERP - https://automationexercise.com/product_details/39 --> ACTIVE [200]
+[2025-12-10 16:00:47] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:47] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:47] [INFO] ERP - https://automationexercise.com/product_details/40 --> ACTIVE [200]
+[2025-12-10 16:00:47] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:47] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:47] [INFO] ERP - https://automationexercise.com/product_details/41 --> ACTIVE [200]
+[2025-12-10 16:00:47] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:47] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:48] [INFO] ERP - https://automationexercise.com/product_details/42 --> ACTIVE [200]
+[2025-12-10 16:00:48] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:48] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:48] [INFO] ERP - https://automationexercise.com/product_details/43 --> ACTIVE [200]
+[2025-12-10 16:00:48] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:48] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:48] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:48] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:48] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:48] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:00:49] [INFO] ERP - https://automationexercise.com/#recommended-item-carousel --> ACTIVE [200]
+[2025-12-10 16:00:49] [INFO] ERP - https://automationexercise.com/#recommended-item-carousel --> ACTIVE [200]
+[2025-12-10 16:00:49] [INFO] ERP - https://automationexercise.com/#top --> ACTIVE [200]
+[2025-12-10 16:00:49] [INFO] ERP - Total Broken: 76
+[2025-12-10 16:00:49] [INFO] ERP - Total Active: 73
+[2025-12-10 16:09:04] [INFO] ERP - Url Opened
+[2025-12-10 16:09:04] [INFO] ERP - Starting test: verifyLoginUser
+[2025-12-10 16:09:06] [INFO] ERP - Navigated to Sign Up / Login page
+[2025-12-10 16:09:10] [INFO] ERP - Entered credentials and clicked login
+[2025-12-10 16:09:10] [INFO] ERP - Login Successful - Delete Account button displayed
+[2025-12-10 16:09:10] [INFO] ERP - Ending test: verifyLoginUser
+[2025-12-10 16:09:14] [INFO] ERP - https://automationexercise.com/logout --> BROKEN [500]
+[2025-12-10 16:09:16] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:26] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:26] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:27] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:27] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:27] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:27] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:28] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:28] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:28] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:28] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:28] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:28] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:29] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:29] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:29] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:29] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:29] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:30] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:30] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:30] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:30] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:30] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:31] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:31] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:31] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:31] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:31] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:32] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:32] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:32] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:32] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:32] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:33] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:33] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:33] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:33] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:33] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:33] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:34] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:34] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:34] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:34] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:35] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:35] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:36] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:36] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:36] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:36] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:36] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:36] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:37] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:37] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:37] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:37] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:38] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:38] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:38] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:38] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:38] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:38] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:39] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:39] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:39] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:39] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:40] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:40] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:40] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:40] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:40] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:40] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:41] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:41] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:41] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:41] [ERROR] ERP - null --> ERROR
+[2025-12-10 16:09:42] [INFO] ERP - Total broken link on web page: 76
+[2025-12-10 16:09:42] [INFO] ERP - Total active link on web page:73
+[2025-12-10 16:23:30] [INFO] MyFramework - Url Opened
+[2025-12-10 16:23:30] [INFO] MyFramework - Starting test: verifyLoginUser
+[2025-12-10 16:23:31] [INFO] MyFramework - Navigated to Sign Up / Login page
+[2025-12-10 16:23:37] [INFO] MyFramework - Entered credentials and clicked login
+[2025-12-10 16:23:37] [INFO] MyFramework - Login Successful - Delete Account button displayed
+[2025-12-10 16:23:37] [INFO] MyFramework - Ending test: verifyLoginUser
+[2025-12-10 16:23:40] [INFO] MyFramework - https://automationexercise.com/logout --> BROKEN [500]
+[2025-12-10 16:24:04] [INFO] MyFramework - https://automationexercise.com/#recommended-item-carousel --> BROKEN [520]
+[2025-12-10 16:24:17] [INFO] MyFramework - Total broken link on web page: 2
+[2025-12-10 16:24:17] [INFO] MyFramework - Total active link on web page:72
